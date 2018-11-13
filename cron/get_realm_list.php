@@ -1,5 +1,5 @@
 <?php
-require_once('apikey.php');
+require_once('../init.php');
 
 $url = 'https://eu.api.battle.net/wow/realm/status?locale=en_GB&apikey='.$APIKEY;
 

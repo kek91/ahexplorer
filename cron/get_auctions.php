@@ -1,6 +1,6 @@
 <?php
 ini_set("memory_limit","1024M");
-require_once('apikey.php');
+require_once('../init.php');
 
 $realms = json_decode(file_get_contents('./../cache/realms.json'));
 echo 'Starting...<br>';

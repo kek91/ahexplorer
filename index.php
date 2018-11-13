@@ -1,6 +1,6 @@
 <?php
 ini_set("memory_limit","1024M");
-require_once('cron/apikey.php');
+require_once('./init.php');
 /* auctions.json is approx 22 MB */
 
 echo '
